@@ -14,7 +14,7 @@ DEFAULT_DICTIONARY = REPO_ROOT / ".affin.ko.dictionary"
 
 # Korean value replacements (regex on KO side), applied after English key match
 KO_REPLACEMENTS: list[tuple[str, str, str]] = [
-    (r"칠", "채우기", "fill_term"),
+    (r"(?<![가-힣])칠(?![가-힣])", "채우기", "fill_term"),
     (r"미리 설정", "사전 설정", "preset_term"),
     (r"액화", "액체화", "liquify_term"),
     (r"스내핑", "스냅", "snap_term"),

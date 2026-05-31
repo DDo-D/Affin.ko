@@ -261,7 +261,7 @@ def translate_pair(english: str, japanese: str, glossary: dict[str, str]) -> str
         return glossary[english]
     if japanese:
         ja_ko = ja_to_ko(japanese)
-        if ja_ko and re.search(r"[\uac00-\ud7a3]", ja_ko) and not is_english(ja_ko):
+        if ja_ko and re.search(r"[\uac00-\ud7a3]", ja_ko) and not re.search(r"[\u3040-\u30ff\u4e00-\u9fff]", ja_ko):
             return ja_ko
     # fallback: token replace EN
     result = english

@@ -1,0 +1,14 @@
+{
+  "Affine": "affine",
+  "Bilinear": "bilinear",
+  "Black Point Compensation": "black point compensation",
+  "Rendering Intent": "rendering intent",
+  "Diffuse Glow": "확산 광晕",
+  "Displace": "置換",
+  "Bicubic": "bicubic",
+  "Nearest Neighbor": "nearest neighbor",
+  "Live Diffuse Glow": "Live 확산 광晕",
+  "Diffuse Glow Tool": "확산 광晕 도구",
+  "LUT Adjustment": "LUT 조정",
+  "Store fonts (*.affont) will be loaded from the Affinity Fonts folder on startup": "Store fonts (*.affont) will be loaded from the Affinity 글꼴s folder on startup"
+}
