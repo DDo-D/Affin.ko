@@ -1,0 +1,434 @@
+[
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "3lQ-Mh-xFl.title",
+    "english": "Bicubic",
+    "japanese": "バイキュービック"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "66v-si-luN.title",
+    "english": "Nearest Neighbor",
+    "japanese": "ニアレストネイバー"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "Ack-u4-xla.title",
+    "english": "Bilinear",
+    "japanese": "バイリニア"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "CPO-iq-gr0.title",
+    "english": "Transfer function:",
+    "japanese": "伝達関数:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "CyQ-Ml-rza.title",
+    "english": "Include unknown channels",
+    "japanese": "不明なチャンネルを含める"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "DM2-JA-2sb.title",
+    "english": "Include color bars",
+    "japanese": "カラーバーを含める"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "DV4-Qo-cjW.title",
+    "english": "Embed profiles",
+    "japanese": "プロファイルを埋め込む"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "DeM-BO-S37.title",
+    "english": "Allow document printing",
+    "japanese": "ドキュメントの書き出しを許可"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "Dk1-Da-MJf.title",
+    "english": "Use document format",
+    "japanese": "ドキュメント形式を使用"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "Dug-pV-HVt.title",
+    "english": "Downsample images",
+    "japanese": "画像のダウンサンプル"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "EA4-1A-ldi.title",
+    "english": "Grayscale 8-bit",
+    "japanese": "グレースケール 8ビット"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "EP6-Qr-g3D.title",
+    "english": "Minimize size",
+    "japanese": "サイズを最小にする"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "Fa8-hj-fcn.title",
+    "english": "Include crop marks",
+    "japanese": "コーナートンボを含める"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "HxN-Hj-83V.title",
+    "english": "Include layers",
+    "japanese": "レイヤーを含める"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "IBV-E0-ftA.title",
+    "english": "Subset fonts",
+    "japanese": "サブセットフォント"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "JoP-dF-QPy.title",
+    "english": "Other pixels:",
+    "japanese": "その他のピクセル:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "JwO-LA-7TH.title",
+    "english": "Permissions password:",
+    "japanese": "権限パスワード:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "L6i-C0-aRE.title",
+    "english": "Dashed:",
+    "japanese": "破線付き:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "LvD-5G-0JU.ibShadowedToolTip",
+    "english": "Choose how to handle exporting vector strokes. Some third party applications may not support vector strokes even if they support vector masks.",
+    "japanese": "書き出し用ベクター境界線の処理方法を決定します。一部のサードパーティアプリケーションでは、たとえベクターマスクがサポートされていても、ベクター境界線はサポートされていない場合があります。"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "MAz-e3-css.title",
+    "english": "Honor spot colors",
+    "japanese": "スポットカラーを有効化"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "MKU-vK-fUX.title",
+    "english": "Keep",
+    "japanese": "維持"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "N4r-Wt-DfX.title",
+    "english": "Use image file",
+    "japanese": "画像ファイルを使用"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "NyX-1D-irq.title",
+    "english": "Create preset...",
+    "japanese": "プリセットを作成..."
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "Oh0-zZ-HhZ.title",
+    "english": "Top level only",
+    "japanese": "トップレベルのみ"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "P5o-jm-4xY.title",
+    "english": "Allow advanced features",
+    "japanese": "拡張機能を許可"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "POa-5y-4xA.title",
+    "english": "Bitmap:",
+    "japanese": "ビットマップ:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "PSe-3G-dpI.title",
+    "english": "Use relative coordinates",
+    "japanese": "相対座標を使用"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "Pvy-Tg-axF.title",
+    "english": "Overweight:",
+    "japanese": "極太:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "QMV-OZ-08J.title",
+    "english": "Convert image color spaces",
+    "japanese": "画像の色空間を変換"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "RUH-cf-JLg.label",
+    "english": "Empty",
+    "japanese": "空"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "RiT-x5-l40.title",
+    "english": "Multi channel",
+    "japanese": "マルチチャンネル"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "TIz-gw-QH1.title",
+    "english": "Use hex colors",
+    "japanese": "16進数カラーを使用"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "Tpc-ks-cKM.title",
+    "english": "Relative coordinates",
+    "japanese": "相対座標"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "U5Q-o1-Jmq.title",
+    "english": "Compatibility:",
+    "japanese": "互換性:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "Uw6-4X-RDQ.title",
+    "english": "Lossless",
+    "japanese": "ロスレス"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "VXr-D4-t4D.title",
+    "english": "Other source",
+    "japanese": "その他のソース"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "VYu-EN-Pba.title",
+    "english": "Make continuous",
+    "japanese": "実線"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "Vhq-IE-uQd.title",
+    "english": "Unsupported properties",
+    "japanese": "サポートされていないプロパティ"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "Wld-oe-aF0.title",
+    "english": "Pagination:",
+    "japanese": "ページネーション:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "WtC-gK-AEb.title",
+    "english": "Convert numbered lists to text",
+    "japanese": "番号付きリストをテキストに変換"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "YBE-Hf-BoN.title",
+    "english": "Include invisible layers",
+    "japanese": "非表示レイヤーを含める"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "YNA-d3-JgY.title",
+    "english": "Grayscale 16-bit",
+    "japanese": "グレースケール 16ビット"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "Za5-Yv-82k.title",
+    "english": "Embed  fonts:",
+    "japanese": "フォントを埋め込む:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "ZqR-hT-UvQ.title",
+    "english": "Include registration marks",
+    "japanese": "レジストレーションマークを含める"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "aAH-JA-Yyk.title",
+    "english": "Include page information",
+    "japanese": "ページ情報を含める"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "ac4-ay-C0s.ibShadowedToolTip",
+    "english": "Chose the resampler to use when resizing raster elements",
+    "japanese": "ラスター要素のサイズ変更時に使用するリサンプラーを決定します"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "bk7-OS-1jZ.ibShadowedToolTip",
+    "english": "Convert top level clipping curves to vector paths",
+    "japanese": "トップレベルのクリッピングカーブをベクターパスに変換"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "bqC-zs-fW9.title",
+    "english": "Cover page:",
+    "japanese": "カバーページ:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "cOv-5b-dIx.title",
+    "english": "Compatibility mode",
+    "japanese": "互換性モード"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "d7G-Q2-PrO.ibShadowedToolTip",
+    "english": "Choose the pixel data type to use for all other pixels (including unknown channels)",
+    "japanese": "他のすべてのピクセル(不明なチャンネルを含む)で使用するピクセルデータタイプを選択します"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "fGw-Wq-U8E.title",
+    "english": "Palette:",
+    "japanese": "パレット:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "gaY-IU-bZd.title",
+    "english": "Matte:",
+    "japanese": "マット:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "hXU-kw-3JN.title",
+    "english": "Encryption Level:",
+    "japanese": "暗号化レベル:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "iVn-sM-5ya.title",
+    "english": "Set view box",
+    "japanese": "ビューボックスを設定"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "iwB-2G-lV4.title",
+    "english": "Source:",
+    "japanese": "ソース:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "jPy-KT-IqW.title",
+    "english": "Longer text spans",
+    "japanese": "より長いテキスト範囲"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "jfd-da-AN5.title",
+    "english": "Image pixels:",
+    "japanese": "画像のピクセル:"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "keZ-Js-Xa1.title",
+    "english": "Radio",
+    "japanese": "ラジオ"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "nMX-Tn-ASz.title",
+    "english": "Use document resolution",
+    "japanese": "ドキュメント解像度を使用"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "nOf-NA-gQi.ibShadowedToolTip",
+    "english": "Chose how to handle exporting advanced blending options. Some third party applications may not support advanced blending options.",
+    "japanese": "書き出し用の高度なブレンディングオプションの処理方法を決定します。一部のサードパーティアプリケーションでは、高度なブレンディングオプションがサポートされていない場合があります。"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "nnH-xS-g6e.title",
+    "english": "Require password for modification and printing",
+    "japanese": "編集とプリントにはパスワードが必要です"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "oLi-Et-hpe.title",
+    "english": "Full Range",
+    "japanese": "フルレンジ"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "pzm-8b-7EY.title",
+    "english": "Smallest file sizes",
+    "japanese": "最小ファイルサイズ"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "qA8-PI-nMQ.title",
+    "english": "Include bookmarks",
+    "japanese": "ブックマークを含める"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "s7M-Lw-Bzx.title",
+    "english": "Preserve local overrides",
+    "japanese": "ローカルのオーバーライドを維持"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "sxF-Xr-IQm.title",
+    "english": "Progressive",
+    "japanese": "プログレッシブ"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "tzB-wu-9dM.title",
+    "english": "Enable copying of content",
+    "japanese": "コンテンツのコピーを有効にする"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "tzf-M5-CMV.title",
+    "english": "Require password to open",
+    "japanese": "開くにはパスワードが必要です"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "uav-Rz-02b.title",
+    "english": "Any named",
+    "japanese": "名前付きすべて"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "xbt-nQ-QB6.title",
+    "english": "Allow content modification",
+    "japanese": "コンテンツの変更を許可"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "yrU-Nz-yx1.title",
+    "english": "Palettized",
+    "japanese": "減色"
+  },
+  {
+    "file": "ExportOptionsView.strings",
+    "key": "zVF-TF-eVD.title",
+    "english": "Convert clips to paths",
+    "japanese": "クリップをパスに変換"
+  }
+]

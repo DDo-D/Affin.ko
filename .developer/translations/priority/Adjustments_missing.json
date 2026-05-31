@@ -1,0 +1,224 @@
+[
+  {
+    "file": "Adjustments.strings",
+    "key": "646.title",
+    "english": "Black Level",
+    "japanese": "黒レベル"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "647.title",
+    "english": "White Level",
+    "japanese": "白レベル"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "776.title",
+    "english": "Cyan",
+    "japanese": "シアン"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "777.title",
+    "english": "Magenta",
+    "japanese": "マゼンタ"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "807.title",
+    "english": "Proof Profile",
+    "japanese": "校正プロファイル"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "835.title",
+    "english": "Neutrals",
+    "japanese": "中間色"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "837.title",
+    "english": "Yellows",
+    "japanese": "黄"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "838.title",
+    "english": "Magentas",
+    "japanese": "マゼンタ"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "839.title",
+    "english": "Cyans",
+    "japanese": "シアン"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "843.title",
+    "english": "Relative",
+    "japanese": "相対"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "3CG-uC-GYk.title",
+    "english": "Cyan / Red",
+    "japanese": "シアン/赤"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "6jJ-PQ-8Ca.title",
+    "english": "Name: Identity",
+    "japanese": "名前: アイデンティティ"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "8hA-4B-coG.title",
+    "english": "Optical Density",
+    "japanese": "光学密度"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "9RA-HT-1XM.title",
+    "english": "Yellow / Blue",
+    "japanese": "黄/青"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "9RO-PE-ML7.title",
+    "english": "Reverse",
+    "japanese": "反転"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "Cfb-eQ-cro.title",
+    "english": "Gamut Check",
+    "japanese": "色域チェック"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "Ctq-5z-sTW.title",
+    "english": "Method",
+    "japanese": "方式"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "FoF-YT-wWz.ibShadowedToolTip",
+    "english": "Add Sublayer",
+    "japanese": "サブレイヤーを追加"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "HkJ-lZ-40h.title",
+    "english": "Structural",
+    "japanese": "構造"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "NEO-ZI-iIs.title",
+    "english": "Black Point",
+    "japanese": "黒点"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "X9i-XS-IqM.title",
+    "english": "Log",
+    "japanese": "対数"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "XoO-je-JcW.title",
+    "english": "Perceptual",
+    "japanese": "知覚"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "bxX-lF-8q5.title",
+    "english": "Output Black Level",
+    "japanese": "出力の黒レベル"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "d57-46-jgU.title",
+    "english": "Natural",
+    "japanese": "自然"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "dgN-bF-zPe.title",
+    "english": "Bright",
+    "japanese": "明るい"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "eQ2-oY-KP7.title",
+    "english": "Output White Level",
+    "japanese": "出力の白レベル"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "eVL-Y4-Z37.title",
+    "english": "Stretch Factor",
+    "japanese": "ストレッチ係数"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "iVj-b9-eof.title",
+    "english": "Filmic",
+    "japanese": "映画的"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "k1c-fl-J8O.title",
+    "english": "Black point compensation",
+    "japanese": "黒点補正"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "kTF-w6-yNp.label",
+    "english": "Tone Stretch",
+    "japanese": "トーンストレッチ"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "lCK-kn-dKy.title",
+    "english": "Rendering Intent:",
+    "japanese": "レンダリングインテント:"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "mvC-0S-uxr.label",
+    "english": "Legacy Shadows / Highlights",
+    "japanese": "レガシーシャドウ/ハイライト"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "oZF-mL-LFX.title",
+    "english": "Logarithmic",
+    "japanese": "対数的"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "pou-TT-h0Y.title",
+    "english": "Punchy",
+    "japanese": "力強い"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "yVn-Z4-xoE.title",
+    "english": "Magenta / Green",
+    "japanese": "マゼンタ/緑"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "yn3-80-URj.title",
+    "english": "Mid Point:",
+    "japanese": "中間点:"
+  },
+  {
+    "file": "Adjustments.strings",
+    "key": "zfr-Cf-YQD.title",
+    "english": "Preserve luminosity",
+    "japanese": "輝度を維持"
+  }
+]

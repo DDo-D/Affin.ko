@@ -1,0 +1,56 @@
+[
+  {
+    "file": "ContextMenu.strings",
+    "key": "B37-ai-lSM.title",
+    "english": "Size Frame to Content",
+    "japanese": "コンテンツに合わせてフレームのサイズを設定"
+  },
+  {
+    "file": "ContextMenu.strings",
+    "key": "EtU-HE-C48.title",
+    "english": "Medium Gray",
+    "japanese": "ミディアムグレー"
+  },
+  {
+    "file": "ContextMenu.strings",
+    "key": "LT9-eT-zj7.title",
+    "english": "Insert Field",
+    "japanese": "フィールドを挿入"
+  },
+  {
+    "file": "ContextMenu.strings",
+    "key": "Liq-Ss-rJt.title",
+    "english": "Convert to Picture Frame",
+    "japanese": "ピクチャフレームに変換"
+  },
+  {
+    "file": "ContextMenu.strings",
+    "key": "ZGp-ZV-I71.title",
+    "english": "Edit Cross-Reference…",
+    "japanese": "相互参照を編集…"
+  },
+  {
+    "file": "ContextMenu.strings",
+    "key": "cga-T2-eiT.title",
+    "english": "Dark Gray",
+    "japanese": "ダークグレー"
+  },
+  {
+    "file": "ContextMenu.strings",
+    "key": "hjz-7b-OQh.title",
+    "english": "Preflight Comment",
+    "japanese": "プリフライトコメント"
+  },
+  {
+    "file": "ContextMenu.strings",
+    "key": "vwu-Tz-L0n.title",
+    "english": "Insert Cross-Reference…",
+    "japanese": "相互参照を挿入…"
+  },
+  {
+    "file": "ContextMenu.strings",
+    "key": "wjU-SN-0dY.title",
+    "english": "Light Gray",
+    "japanese": "ライトグレー"
+  }
+]

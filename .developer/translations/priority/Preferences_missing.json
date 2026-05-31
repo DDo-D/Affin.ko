@@ -1,0 +1,680 @@
+[
+  {
+    "file": "Preferences.strings",
+    "key": "52.title",
+    "english": "Disk usage warning at",
+    "japanese": "ディスク使用量警告レベル"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "96.title",
+    "english": "Background gray level",
+    "japanese": "背景グレーレベル"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "122.title",
+    "english": "UI brightness",
+    "japanese": "UIの明るさ"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "146.title",
+    "english": "Nearest Neighbor (Fastest)",
+    "japanese": "ニアレストネイバー(速度優先)"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "198.title",
+    "english": "File Recovery Interval",
+    "japanese": "自動保存間隔"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "202.title",
+    "english": "seconds",
+    "japanese": "秒"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "03Q-Dj-gAw.title",
+    "english": "No sharing between tools",
+    "japanese": "ツール間の共有なし"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "083-g3-aRU.title",
+    "english": "Enable assistant",
+    "japanese": "アシスタントを有効にする"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "0Z3-F7-kUk.title",
+    "english": "Haptics",
+    "japanese": "ハプティクス"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "0d3-Vf-Jeh.title",
+    "english": "Use internet and local network connections when required to complete tasks.",
+    "japanese": "タスクを完了するために必要な場合は、インターネットやローカルネットワーク接続を使用します。"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "0mY-nm-vLd.title",
+    "english": "Using mobile data",
+    "japanese": "モバイルデータ使用時"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "2GC-y0-OeK.title",
+    "english": "Languages",
+    "japanese": "言語"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "3jD-NC-trj.title",
+    "english": "Install",
+    "japanese": "インストール"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "3vc-NJ-ZQq.title",
+    "english": "Add filter as new layer",
+    "japanese": "フィルターを新規レイヤーとして追加"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "4A0-aG-lvk.title",
+    "english": "Tool handle size",
+    "japanese": "ツールハンドルサイズ"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "4bY-fm-I37.title",
+    "english": "Always use white background for font dropdown",
+    "japanese": "[フォント]ドロップダウンで常に白の背景を使用"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "6Nv-fl-sSM.title",
+    "english": "Use ⇧ modifier to cycle tools",
+    "japanese": "⇧ 修飾キーを使用してツールを切り替え"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "6eF-s2-39k.title",
+    "english": "Uninstall",
+    "japanese": "アンインストール"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "7M1-MC-NX7.title",
+    "english": "Insert filler text as text",
+    "japanese": "フィラーテキストをテキストとして挿入"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "7al-Sb-c7I.title",
+    "english": "Store task hints in local memory for similar tasks in the future.",
+    "japanese": "今後類似するタスクがあった場合に備えて、タスクのヒントをローカルメモリに保存します。"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "8UP-Kb-0J4.title",
+    "english": "No size limit set",
+    "japanese": "サイズ制限が設定されていません"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "8u7-jc-Kye.title",
+    "english": "Create text with blend gamma",
+    "japanese": "ブレンドガンマを使用したテキストを作成"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "9Ag-Ds-n3y.title",
+    "english": "Inference:",
+    "japanese": "推測:"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "A6r-9v-tez.title",
+    "english": "Access files on your Desktop",
+    "japanese": "デスクトップ上のファイルへのアクセス"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "B6n-Gd-hsq.title",
+    "english": "* Requires restart",
+    "japanese": "* 再起動が必要"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "Bg4-3B-NoC.title",
+    "english": "Place mask layer inside and erase",
+    "japanese": "マスクレイヤーを内部に配置して消去"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "BqP-e8-B0b.title",
+    "english": "Touch (select objects when marquee touches them)",
+    "japanese": "タッチ(マーキーがオブジェクトに触れたときにオブジェクトを選択)"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "CYL-w1-7fP.title",
+    "english": "Smart sharing between tools",
+    "japanese": "ツール間でスマート共有"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "DER-OE-LDS.title",
+    "english": "Alert when assistant takes an action",
+    "japanese": "アシスタントが処理を行うときにアラート"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "Erk-lt-AXp.title",
+    "english": "Plugins will be automatically detected in the default folder:",
+    "japanese": "プラグインの自動検出が行われるデフォルトフォルダ:"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "GUA-hP-bAS.title",
+    "english": "Plugin Search Folders",
+    "japanese": "プラグイン検索フォルダ"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "HEb-M7-Ymd.title",
+    "english": "Make all new categories synced",
+    "japanese": "すべての新規カテゴリを同期する"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "Hxt-wD-f1X.title",
+    "english": "No configuration selected",
+    "japanese": "設定が選択されていません。"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "IQS-k3-Ejt.title",
+    "english": "Unlink",
+    "japanese": "リンクを解除"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "Ja8-vw-dmr.title",
+    "english": "With",
+    "japanese": "および"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "JoT-jw-z8D.title",
+    "english": "Take no action",
+    "japanese": "何もしない"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "KJi-Zx-LZG.title",
+    "english": "Additional lens profiles will be loaded from the Lens Profiles folder on startup",
+    "japanese": "起動時に追加のレンズプロファイルがレンズプロファイルのフォルダから読み込まれます"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "MaH-yj-I3d.title",
+    "english": "Black point compensation",
+    "japanese": "黒点補正"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "MvY-KU-oPc.title",
+    "english": "Warn when assigning working profile to unprofiled files",
+    "japanese": "作業中のプロファイルを未プロファイルのファイルに割り当てる際に警告"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "Mz4-X4-lmd.title",
+    "english": "Any synced content categories will be automatically kept up-to-date with your other devices.",
+    "japanese": "同期されたコンテンツのカテゴリはすべて他のデバイスで自動的に最新に保たれます。"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "NLn-2O-Mk2.title",
+    "english": "Enable haptics",
+    "japanese": "ハプティクスを有効にする"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "NmI-8s-dce.title",
+    "english": "Hide file extension",
+    "japanese": "ファイル拡張子を非表示"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "O0q-cc-aiZ.title",
+    "english": "Convert opened files to working space",
+    "japanese": "開いたファイルを作業中の色空間に変換"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "Ofp-DR-n2S.title",
+    "english": "Allow \\\"Unknown\\\" plugins to be used",
+    "japanese": "\\\"不明\\\"プラグインの使用を許可"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "OqP-8w-QSn.title",
+    "english": "Add adjustment based on selection",
+    "japanese": "調整を子レイヤーとして追加"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "PQu-Zr-xyh.title",
+    "english": "Use 'scrubby' zoom",
+    "japanese": "'スクラブ'ズームを使用"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "PYH-HM-VSZ.title",
+    "english": "Modifiers are not permitted.",
+    "japanese": "修飾キーは許容されません。"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "Pc2-JK-KLg.title",
+    "english": "Access networks",
+    "japanese": "ネットワークへのアクセス"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "Poz-2U-dnm.title",
+    "english": "Add new pixel layer and paint",
+    "japanese": "新規ピクセルレイヤーとペイントを追加"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "QhS-wU-aLg.title",
+    "english": "Rendering Intent",
+    "japanese": "レンダリングインテント"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "Rj8-WA-4SG.title",
+    "english": "Replace text while typing",
+    "japanese": "入力中にテキストを置換"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "RqR-aX-6aC.title",
+    "english": "Hide document tabs with one document open",
+    "japanese": "ドキュメントが開いている状態でドキュメントタブを非表示にする"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "Sfx-05-rJF.title",
+    "english": "Auto-correct is disabled. Abbreviations will have no effect.",
+    "japanese": "自動補正は無効化されます。略語はエフェクトになりません。"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "TRi-O9-zeN.title",
+    "english": "Show Lines in points",
+    "japanese": "ラインをポイント単位で表示"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "UMU-Ue-jJA.title",
+    "english": "Prefer to keep selection after delete",
+    "japanese": "削除後に選択を維持することを希望"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "WEN-S3-NkW.title",
+    "english": "Show file extension",
+    "japanese": "ファイル拡張子を表示"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "WM5-vl-2vB.title",
+    "english": "Show sync status icon on content:",
+    "japanese": "コンテンツ上に同期ステータスアイコンを表示:"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "XCv-4y-bbc.title",
+    "english": "Adding mask layer to selection",
+    "japanese": "選択範囲へのマスクレイヤーの追加"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "XKr-Zt-mQs.title",
+    "english": "Reopen document(s) on startup",
+    "japanese": "起動時にドキュメントを再度開く"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "XM9-Y6-DGn.title",
+    "english": "Move Tool aspect constrain",
+    "japanese": "移動ツールの縦横比制約"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "XX2-Xv-k9F.title",
+    "english": "Existing scripts stored in your scripting panel can be read and used for new tasks.",
+    "japanese": "スクリプトパネルに保存されている既存のスクリプトを読み込んで、新しいタスクに使用します。"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "Xa7-PQ-O2r.title",
+    "english": "Ignore Modifier",
+    "japanese": "修飾キーを無視"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "XrB-rK-XZL.title",
+    "english": "Force Touch context menu",
+    "japanese": "コンテキストメニューのタッチを強制"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "bal-nB-gbQ.title",
+    "english": "Nudge distance",
+    "japanese": "微調整の距離"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "bja-bV-CXP.title",
+    "english": "Enable file sharing on the local area network",
+    "japanese": "ローカルエリアネットワークでのファイルの共有を有効化"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "bvW-wX-i0j.title",
+    "english": "Segmentation",
+    "japanese": "セグメンテーション"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "cNL-lm-QT1.title",
+    "english": "Enable content sync on this device  [EXPERIMENTAL]",
+    "japanese": "このデバイスのコンテンツ同期を有効にする [実験的]"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "ckX-QQ-YK8.title",
+    "english": "Use saved scripts",
+    "japanese": "保存されたスクリプトを使う"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "dX8-9S-tdh.title",
+    "english": "Use precise clipping",
+    "japanese": "正確なクリッピングを使用"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "doH-FL-HHh.title",
+    "english": "Accented color",
+    "japanese": "アクセントカラー"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "eaJ-Wy-RXU.title",
+    "english": "Low quality (Fastest)",
+    "japanese": "低品質(最速)"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "edC-gG-mL8.title",
+    "english": "Depth Estimation",
+    "japanese": "深度推定"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "fZA-Qx-cXG.title",
+    "english": "Add adjustment as new layer",
+    "japanese": "調整を新規レイヤーとして追加"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "ftR-SG-rIy.title",
+    "english": "Detected Plugins",
+    "japanese": "検出済みプラグイン"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "hFJ-QS-bFF.title",
+    "english": "On battery",
+    "japanese": "バッテリー使用時"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "hmy-Ev-QY8.title",
+    "english": "Show these items on Home (drag to reorder)",
+    "japanese": "これらの項目をホームに表示する（ドラッグで並べ替え可能）"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "i9F-bw-tOD.title",
+    "english": "Left to right: Touch, Right to left: Enclosed",
+    "japanese": "左から右へ: タッチ、右から左へ: 囲い込み"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "jof-Ir-jCN.title",
+    "english": "and warn when converting on load",
+    "japanese": "読み込み時に変換を行う場合に警告"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "kTx-Sw-JNF.title",
+    "english": "High quality (Slowest)",
+    "japanese": "高品質(最遅)"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "kod-V4-Mll.title",
+    "english": "Add filter based on selection",
+    "japanese": "フィルターを子レイヤーとして追加"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "lVv-ZL-7fT.title",
+    "english": "Decimal places for unit types",
+    "japanese": "単位タイプの小数部桁数"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "mME-LW-51Z.title",
+    "english": "Adding adjustment layer to selection",
+    "japanese": "選択範囲に調整レイヤーを追加"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "mba-HU-qfa.title",
+    "english": "Constrain by default",
+    "japanese": "デフォルトで制約"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "oEP-Fu-XcC.title",
+    "english": "Plugin Support Folders",
+    "japanese": "プラグインサポートフォルダ"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "oJ5-8y-OKL.title",
+    "english": "UI style",
+    "japanese": "UIスタイル"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "oxe-4B-K89.title",
+    "english": "Enable Auto-Correct",
+    "japanese": "自動補正を有効にする"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "p0b-Iv-fDQ.title",
+    "english": "Other brushes on vector layers",
+    "japanese": "ベクターレイヤー上の他のブラシ"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "pXQ-fN-FfM.title",
+    "english": "⌃+Click show context menu",
+    "japanese": "⌃+クリックでコンテキストメニューを表示"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "qfO-WN-jcY.title",
+    "english": "Perceptual",
+    "japanese": "知覚"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "qtH-kE-C8C.title",
+    "english": "Allow trackpad to scroll numeric fields",
+    "japanese": "トラックパッドによる数値フィールドのスクロールを許可"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "r67-8G-QnQ.title",
+    "english": "Auto commit filters",
+    "japanese": "フィルターを自動コミット"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "rCt-7T-FLs.title",
+    "english": "Do not constrain by default",
+    "japanese": "デフォルトで制約しない"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "rKB-vq-uDw.headerCell.title",
+    "english": "Keys",
+    "japanese": "キー"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "raC-NR-TOk.title",
+    "english": "Only return safe results for stock image searches",
+    "japanese": "ストック画像検索で安全な結果のみを返す"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "rkl-23-enT.title",
+    "english": "Modifier nudge distance",
+    "japanese": "修飾キー使用時の微調整距離"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "tEa-Jo-4Ag.title",
+    "english": "Use mouse wheel to zoom ",
+    "japanese": "ズームにマウスホイールを使用 "
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "uif-dR-Gvx.title",
+    "english": "Add mask based on selection",
+    "japanese": "マスクを子レイヤーとして追加"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "ulc-Dh-pW2.title",
+    "english": "Enable canvas rotation with ⌘+scroll wheel",
+    "japanese": "⌘+ホイールのスクロールでキャンバスの回転を有効化"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "vI2-wv-sBd.title",
+    "english": "Marquee selection behavior",
+    "japanese": "マーキー選択の動作"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "vO5-uW-BHT.title",
+    "english": "Add mask layer",
+    "japanese": "マスクレイヤーを追加"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "vqD-fC-7kl.title",
+    "english": "Erasing from vector layers",
+    "japanese": "ベクターレイヤーから消去"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "w10-i4-bM1.title",
+    "english": "Painting with no layer selected",
+    "japanese": "レイヤーを選択せずに描画"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "w6W-ON-jnU.title",
+    "english": "Only when important",
+    "japanese": "重要な場合のみ"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "wRJ-ZX-YBe.title",
+    "english": "Tooltip delay",
+    "japanese": "ツールチップを表示するまでの時間"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "wTP-Ig-RE9.title",
+    "english": "Add mask as new layer",
+    "japanese": "マスクを新規レイヤーとして追加"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "wcO-KS-p67.title",
+    "english": "Always",
+    "japanese": "常時"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "xEb-dH-uTb.title",
+    "english": "Left to right: Enclosed, Right to left: Touch",
+    "japanese": "左から右へ: 囲い込み、左から右へ: タッチ"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "xJD-nx-qoU.title",
+    "english": "Limit initial zoom to a maximum of 100%",
+    "japanese": "初期ズームを最大100％に制限"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "xX0-e5-bfj.ibShadowedToolTip",
+    "english": "Coarse histogram - click to generate fine.",
+    "japanese": "粗いヒストグラム - クリックで詳細なヒストグラムを生成します。"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "xgZ-NB-5VV.title",
+    "english": "No search folder selected",
+    "japanese": "検索フォルダが選択されていません。"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "y2e-Ww-wKH.headerCell.title",
+    "english": "Status",
+    "japanese": "ステータス"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "yn1-aI-VYW.title",
+    "english": "Enclosed (require objects to be enclosed by marquee)",
+    "japanese": "囲い込み(オブジェクトをマーキーで囲む必要あり)"
+  },
+  {
+    "file": "Preferences.strings",
+    "key": "yop-I4-WQH.title",
+    "english": "Adding filter layer to selection",
+    "japanese": "選択範囲へのフィルターレイヤーの追加"
+  }
+]

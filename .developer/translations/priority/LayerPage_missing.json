@@ -1,0 +1,38 @@
+[
+  {
+    "file": "ExportLayerPage.strings",
+    "key": "K9Y-uY-bbB.ibShadowedToolTip",
+    "english": "Edit within current container",
+    "japanese": "現在のコンテナ内で編集する"
+  },
+  {
+    "file": "LayerPage.strings",
+    "key": "3PJ-5b-LTw.title",
+    "english": "Preflight Comment",
+    "japanese": "プリフライトコメント"
+  },
+  {
+    "file": "LayerPage.strings",
+    "key": "9t8-Bk-StU.title",
+    "english": "Tone Stretch...",
+    "japanese": "トーンストレッチ…"
+  },
+  {
+    "file": "LayerPage.strings",
+    "key": "Swu-Q9-rrW.title",
+    "english": "Show Others",
+    "japanese": "その他を表示"
+  },
+  {
+    "file": "LayerPage.strings",
+    "key": "VvG-AZ-ANl.title",
+    "english": "Collapse All Parents",
+    "japanese": "すべての親を折りたたむ"
+  },
+  {
+    "file": "LayerPage.strings",
+    "key": "kKF-TC-oUu.title",
+    "english": "Thumbnail Background",
+    "japanese": "サムネイルの背景"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "file": "SwatchesPage.strings",
+    "key": "57i-1K-Kew.title",
+    "english": "Gray/8",
+    "japanese": "グレー/8"
+  },
+  {
+    "file": "SwatchesPage.strings",
+    "key": "8o6-B1-OFg.title",
+    "english": "Gray/16",
+    "japanese": "グレー/16"
+  },
+  {
+    "file": "SwatchesPage.strings",
+    "key": "ABL-iB-lXt.title",
+    "english": "Uninstall Pack…",
+    "japanese": "パックをアンインストール…"
+  },
+  {
+    "file": "SwatchesPage.strings",
+    "key": "Ebi-Ti-lcE.title",
+    "english": "Shared with a Team",
+    "japanese": "チームと共有済み"
+  },
+  {
+    "file": "SwatchesPage.strings",
+    "key": "IhS-jO-2Z2.title",
+    "english": "Spot",
+    "japanese": "スポット"
+  },
+  {
+    "file": "SwatchesPage.strings",
+    "key": "ao2-6k-vMe.title",
+    "english": "Just This App",
+    "japanese": "このアプリのみ"
+  },
+  {
+    "file": "SwatchesPage.strings",
+    "key": "dux-4X-fFF.title",
+    "english": "Add Application Palette…",
+    "japanese": "アプリケーションパレットを追加…"
+  },
+  {
+    "file": "SwatchesPage.strings",
+    "key": "grV-iS-ie9.title",
+    "english": "Add System Palette…",
+    "japanese": "システムパレットを追加…"
+  }
+]

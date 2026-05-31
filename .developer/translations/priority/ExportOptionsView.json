@@ -1,0 +1,5 @@
+{
+  "Bicubic": "bicubic",
+  "Nearest Neighbor": "nearest neighbor",
+  "Bilinear": "bilinear"
+}
