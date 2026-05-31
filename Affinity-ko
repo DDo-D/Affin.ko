@@ -1,45 +1,32 @@
 #!/bin/zsh
+# Install Korean strings directly into Affinity.app (same as affin-ko-apply --build)
+set -euo pipefail
+
 REPO_ROOT="${0:A:h}"
+# shellcheck source=affin-ko-lib.zsh
+source "${REPO_ROOT}/affin-ko-lib.zsh"
+
 DICTIONARY="${REPO_ROOT}/.affin.ko.dictionary"
-AFFINITY_APP="/Applications/Affinity.app"
+AFFINITY_APP="${AFFINITY_APP:-/Applications/Affinity.app}"
 
-echo "→ Affinity.app을 종료합니다."
-pkill -f "Affinity"
+[[ -f "${DICTIONARY}" ]] || { echo "Dictionary missing: ${DICTIONARY}" >&2; exit 1 }
 
-echo "→ ko.lproj 폴더를 생성합니다."
+affin_ko_detect_app "${AFFINITY_APP}" >/dev/null || exit 1
+affin_ko_version_check "${AFFINITY_APP}" || true
 
-test -d "${AFFINITY_APP}/Contents/Resources/ko.lproj"
-if [[ $? -eq 1 ]]; then
-  mkdir "${AFFINITY_APP}/Contents/Resources/ko.lproj"
+if [[ -z "${AFFIN_KO_NO_PULL:-}" ]]; then
+  echo "→ Check update (git pull)"
+  (cd "${REPO_ROOT}" && git pull) || true
 fi
 
-test -d "${AFFINITY_APP}/Contents/Frameworks/libcocoaui.framework/Versions/A/Resources/ko.lproj"
-if [[ $? -eq 1 ]]; then
-  mkdir "${AFFINITY_APP}/Contents/Frameworks/libcocoaui.framework/Versions/A/Resources/ko.lproj"
-fi
+echo "→ Quitting Affinity"
+pkill -f "Affinity" 2>/dev/null || true
+sleep 1
 
-echo "→ Check Update"
-cd "${REPO_ROOT}"
-git pull
-
-ENGPATH="${AFFINITY_APP}/Contents/Resources/en-US.lproj/"
-KORPATH="${AFFINITY_APP}/Contents/Resources/ko.lproj/"
-FILECOUNT=$(ls -a "${ENGPATH}" | grep "strings" | sed -n "=" | tail -n "1")
-for ((i = 1; i <= ${FILECOUNT}; i++)); do
-  FILENAME=$(ls "${ENGPATH}" | /usr/bin/sed -n "${i}p")
-  printf "→ ${i}/${FILECOUNT}\t${FILENAME}\n"
-  iconv -f UTF-16LE -t UTF-8 "${ENGPATH}${FILENAME}" >"${KORPATH}${FILENAME}.temp"
-  sed -f "${DICTIONARY}" "${KORPATH}${FILENAME}.temp" >"${KORPATH}${FILENAME}"
-done
-
-ENGFPATH="${AFFINITY_APP}/Contents/Frameworks/libcocoaui.framework/Versions/A/Resources/en-US.lproj/"
-KORFPATH="${AFFINITY_APP}/Contents/Frameworks/libcocoaui.framework/Versions/A/Resources/ko.lproj/"
-FILECOUNT=$(ls -a "${ENGFPATH}" | grep "strings" | sed -n "=" | tail -n "1")
-for ((i = 1; i <= ${FILECOUNT}; i++)); do
-  FILENAME=$(ls "${ENGFPATH}" | /usr/bin/sed -n "${i}p")
-  printf "→ ${i}/${FILECOUNT}\t${FILENAME}\n"
-  iconv -f UTF-16LE -t UTF-8 "${ENGFPATH}${FILENAME}" >"${KORFPATH}${FILENAME}.temp"
-  sed -f "${DICTIONARY}" "${KORFPATH}${FILENAME}.temp" >"${KORFPATH}${FILENAME}"
-done
+echo "→ Building ko.lproj in place (UTF-16LE)"
+affin_ko_build_from_app "${AFFINITY_APP}" "${TMPDIR:-/tmp}/affin-ko-install.$$" "${DICTIONARY}"
+affin_ko_install_to_app "${TMPDIR:-/tmp}/affin-ko-install.$$" "${AFFINITY_APP}"
+rm -rf "${TMPDIR:-/tmp}/affin-ko-install.$$"
 
 open -a "${AFFINITY_APP}"
+echo "→ Settings → General → Language → 한국어"

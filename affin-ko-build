@@ -1,0 +1,26 @@
+#!/bin/zsh
+# Build a portable ko.lproj patch bundle (does not modify Affinity.app)
+set -euo pipefail
+
+REPO_ROOT="${0:A:h}"
+# shellcheck source=affin-ko-lib.zsh
+source "${REPO_ROOT}/affin-ko-lib.zsh"
+
+DICTIONARY="${REPO_ROOT}/.affin.ko.dictionary"
+AFFINITY_APP="${AFFINITY_APP:-/Applications/Affinity.app}"
+OUT_DIR="${1:-${REPO_ROOT}/dist/${AFFIN_KO_TARGET_VERSION}-${AFFIN_KO_TARGET_BUILD}}"
+
+[[ -f "${DICTIONARY}" ]] || { echo "Dictionary missing: ${DICTIONARY}" >&2; exit 1 }
+
+affin_ko_detect_app "${AFFINITY_APP}" >/dev/null || exit 1
+affin_ko_version_check "${AFFINITY_APP}" || true
+
+echo "→ Output: ${OUT_DIR}"
+rm -rf "${OUT_DIR}"
+mkdir -p "${OUT_DIR}"
+
+affin_ko_build_from_app "${AFFINITY_APP}" "${OUT_DIR}" "${DICTIONARY}"
+
+echo ""
+echo "Done. Apply with:"
+echo "  AFFINITY_APP=/Applications/Affinity.app ${REPO_ROOT}/affin-ko-apply ${OUT_DIR}"

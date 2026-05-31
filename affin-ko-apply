@@ -1,0 +1,67 @@
+#!/bin/zsh
+# Apply a prebuilt patch bundle to Affinity.app, or build+apply in one step
+set -euo pipefail
+
+REPO_ROOT="${0:A:h}"
+# shellcheck source=affin-ko-lib.zsh
+source "${REPO_ROOT}/affin-ko-lib.zsh"
+
+DICTIONARY="${REPO_ROOT}/.affin.ko.dictionary"
+AFFINITY_APP="${AFFINITY_APP:-/Applications/Affinity.app}"
+MODE="bundle"
+BUNDLE=""
+
+while (( $# > 0 )); do
+  case "$1" in
+  --build)
+    MODE="build"
+    shift
+    ;;
+  -h | --help)
+    cat <<'EOF'
+Usage:
+  affin-ko-apply [path/to/dist/3.2.1-4425]
+  affin-ko-apply --build
+
+  AFFINITY_APP=/path/to/Affinity.app  override app location
+
+Builds copy UTF-16LE ko.lproj into the app bundle (requires quit Affinity first).
+EOF
+    exit 0
+    ;;
+  -*)
+    echo "Unknown option: $1" >&2
+    exit 1
+    ;;
+  *)
+    BUNDLE="$1"
+    shift
+    ;;
+  esac
+done
+
+affin_ko_detect_app "${AFFINITY_APP}" >/dev/null || exit 1
+
+echo "→ Quitting Affinity"
+pkill -f "Affinity" 2>/dev/null || true
+sleep 1
+
+if [[ "${MODE}" == "build" ]]; then
+  BUNDLE="${REPO_ROOT}/dist/${AFFIN_KO_TARGET_VERSION}-${AFFIN_KO_TARGET_BUILD}"
+  echo "→ Building patch bundle"
+  "${REPO_ROOT}/affin-ko-build" "${BUNDLE}"
+fi
+
+BUNDLE="${BUNDLE:-${REPO_ROOT}/dist/${AFFIN_KO_TARGET_VERSION}-${AFFIN_KO_TARGET_BUILD}}"
+[[ -f "${BUNDLE}/manifest.json" ]] || {
+  echo "Patch bundle not found: ${BUNDLE}" >&2
+  echo "Run: ${REPO_ROOT}/affin-ko-build" >&2
+  exit 1
+}
+
+affin_ko_version_check "${AFFINITY_APP}" || true
+affin_ko_install_to_app "${BUNDLE}" "${AFFINITY_APP}"
+
+echo "→ Launching Affinity"
+open -a "${AFFINITY_APP}"
+echo "→ Settings → General → Language → 한국어"
