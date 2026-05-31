@@ -2,7 +2,7 @@
 
 # Affin.ko
 
-Affinity 시리즈 한글화 프로젝트 `3.x.x`
+Affinity 시리즈 한글화 프로젝트 `3.2.1`
 
 > 일본식 한자 표기는 지양하고 있습니다.
 > 마땅히 대체할 단어가 없다면 최대한 원문 그대로 표기하고 있습니다.
@@ -47,6 +47,8 @@ git clone https://github.com/Teiming/Affin.ko.git;
 chmod +x ~/Affin.ko/Affinity-ko;
 ```
 
+스크립트는 clone 위치 기준으로 동작합니다. `~/Affin.ko` 외 경로에 clone했다면 해당 경로에서 실행하세요.
+
 ## Affin.ko 실행
 
 `Affin-ko`를 실행합니다. 또는 아래 명령어를 입력합니다.
@@ -70,6 +72,17 @@ git 저장소에서 최신 번역 자료를 가져옵니다. 이미 최신이라
 ```sh
 Already up to date.
 ```
+
+## 개발자 도구
+
+`3.2.1` 업데이트용 스크립트는 `.developer/`에 있습니다.
+
+| 스크립트 | 용도 |
+|---------|------|
+| `afnk_extract.py` | 미번역 문자열 추출 |
+| `afnk_review.py` | 어색한 번역 검수 |
+| `afnk_batch_add.py` | JSON 번역 일괄 추가 |
+| `STYLE.md` | 용어 스타일 가이드 |
 
 ## 기타
 

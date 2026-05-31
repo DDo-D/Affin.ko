@@ -1,0 +1,11 @@
+{
+  "Affine": "affine",
+  "Bilinear": "bilinear",
+  "Black Point Compensation": "black point compensation",
+  "Rendering Intent": "rendering intent",
+  "Bicubic": "bicubic",
+  "Nearest Neighbor": "nearest neighbor",
+  "Returns (a * b) + c.\\n\\na, b and c may be a scalar or vector, but must match in size.": "(a * b) + cの値を返します。\\n\\na、b、およびcはス색상またはベクトルですが、크기が一致している必要があります。",
+  "LUT Adjustment": "LUT조정",
+  "Store fonts (*.affont) will be loaded from the Affinity Fonts folder on startup": "ストアの글꼴(*.affont)は、起動時にAffinity글꼴フォルダから読み込まれます"
+}

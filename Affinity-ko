@@ -1,27 +1,29 @@
 #!/bin/zsh
-DICTIONARY=~/Affin.ko/.affin.ko.dictionary
+REPO_ROOT="${0:A:h}"
+DICTIONARY="${REPO_ROOT}/.affin.ko.dictionary"
+AFFINITY_APP="/Applications/Affinity.app"
 
 echo "→ Affinity.app을 종료합니다."
 pkill -f "Affinity"
 
 echo "→ ko.lproj 폴더를 생성합니다."
 
-test -d /Applications/Affinity.app/Contents/Resources/ko.lproj
+test -d "${AFFINITY_APP}/Contents/Resources/ko.lproj"
 if [[ $? -eq 1 ]]; then
-  mkdir /Applications/Affinity.app/Contents/Resources/ko.lproj
+  mkdir "${AFFINITY_APP}/Contents/Resources/ko.lproj"
 fi
 
-test -d /Applications/Affinity.app/Contents/Frameworks/libcocoaui.framework/Versions/A/Resources/ko.lproj
+test -d "${AFFINITY_APP}/Contents/Frameworks/libcocoaui.framework/Versions/A/Resources/ko.lproj"
 if [[ $? -eq 1 ]]; then
-  mkdir /Applications/Affinity.app/Contents/Frameworks/libcocoaui.framework/Versions/A/Resources/ko.lproj
+  mkdir "${AFFINITY_APP}/Contents/Frameworks/libcocoaui.framework/Versions/A/Resources/ko.lproj"
 fi
 
 echo "→ Check Update"
-cd ~/Affin.ko/
+cd "${REPO_ROOT}"
 git pull
 
-ENGPATH=/Applications/Affinity.app/Contents/Resources/en-US.lproj/
-KORPATH=/Applications/Affinity.app/Contents/Resources/ko.lproj/
+ENGPATH="${AFFINITY_APP}/Contents/Resources/en-US.lproj/"
+KORPATH="${AFFINITY_APP}/Contents/Resources/ko.lproj/"
 FILECOUNT=$(ls -a "${ENGPATH}" | grep "strings" | sed -n "=" | tail -n "1")
 for ((i = 1; i <= ${FILECOUNT}; i++)); do
   FILENAME=$(ls "${ENGPATH}" | /usr/bin/sed -n "${i}p")
@@ -30,8 +32,8 @@ for ((i = 1; i <= ${FILECOUNT}; i++)); do
   sed -f "${DICTIONARY}" "${KORPATH}${FILENAME}.temp" >"${KORPATH}${FILENAME}"
 done
 
-ENGFPATH=/Applications/Affinity.app/Contents/Frameworks/libcocoaui.framework/Versions/A/Resources/en-US.lproj/
-KORFPATH=/Applications/Affinity.app/Contents/Frameworks/libcocoaui.framework/Versions/A/Resources/ko.lproj/
+ENGFPATH="${AFFINITY_APP}/Contents/Frameworks/libcocoaui.framework/Versions/A/Resources/en-US.lproj/"
+KORFPATH="${AFFINITY_APP}/Contents/Frameworks/libcocoaui.framework/Versions/A/Resources/ko.lproj/"
 FILECOUNT=$(ls -a "${ENGFPATH}" | grep "strings" | sed -n "=" | tail -n "1")
 for ((i = 1; i <= ${FILECOUNT}; i++)); do
   FILENAME=$(ls "${ENGFPATH}" | /usr/bin/sed -n "${i}p")
@@ -40,4 +42,4 @@ for ((i = 1; i <= ${FILECOUNT}; i++)); do
   sed -f "${DICTIONARY}" "${KORFPATH}${FILENAME}.temp" >"${KORFPATH}${FILENAME}"
 done
 
-open -a Affinity.app
+open -a "${AFFINITY_APP}"

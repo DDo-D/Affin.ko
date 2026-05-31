@@ -1,0 +1,9 @@
+{
+  "Affine": "affine",
+  "Bilinear": "bilinear",
+  "Black Point Compensation": "black point compensation",
+  "Rendering Intent": "rendering intent",
+  "Bicubic": "bicubic",
+  "Nearest Neighbor": "nearest neighbor",
+  "Store fonts (*.affont) will be loaded from the Affinity Fonts folder on startup": "Store fonts (*.affont) will be loaded from the Affinity 글꼴s folder on startup"
+}
